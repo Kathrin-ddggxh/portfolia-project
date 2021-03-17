@@ -29,3 +29,18 @@ p {
   font-size: 36px;
   margin-bottom: 32px;
 }
+
+.project-description h2 {
+  font-size: 48px;
+  font-family: var(--primary-font-family);
+}
+
+@media (max-width: 960px) {
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .project-description {
+    text-align: center;
+  }
+}
