@@ -11,6 +11,7 @@ h1 {
 }
 
 h2,
+h3,
 p {
   font-family: var(--secondary-font-family);
 }
@@ -37,21 +38,21 @@ img {
   margin-bottom: 32px;
 }
 
-.about-header {
-  margin-top: 30px;
+.content-header {
+  margin-top: 20px;
   padding: 160px 20px;
 }
 
-.about-header h1 {
+.content-header h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.about-header h2 {
+.content-header h2 {
   line-height: 1.5;
 }
 
-.about-header p {
+.content-header p {
   line-height: 1.5;
   font-size: 18px;
 }
@@ -75,6 +76,26 @@ img {
   font-family: var(--primary-font-family);
 }
 
+.content {
+  text-align: center;
+  margin: 80px 0px 0px 0px;
+}
+
+.content h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 28px;
+}
+
+.content p {
+  font-size: 14px;
+}
+
+.content img {
+  height: 400px;
+  object-fit: scale-down;
+}
+
 @media (max-width: 900px) {
   .hero {
     padding: 60px 20px;
@@ -90,12 +111,12 @@ img {
     line-height: 1.5;
   }
 
-  .about-header {
+  .content-header {
     text-align: center;
     padding-top: 20px;
   }
 
-  .about-header h1 {
+  .content-header h1 {
     font-size: 48px;
     line-height: 1.2;
   }
