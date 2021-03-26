@@ -5,7 +5,8 @@
   --box-shadow: 10px 10px 30px 2px rgb(0 0 0 / 12%);
 }
 
-h1 {
+h1,
+h4 {
   font-family: var(--primary-font-family);
   font-weight: bold;
 }
@@ -18,6 +19,10 @@ p {
 
 h3 {
   font-weight: bold;
+}
+
+h4 {
+  font-size: 38px;
 }
 
 img {
@@ -109,6 +114,46 @@ img {
   object-fit: scale-down;
 }
 
+footer {
+  margin: 80px 0;
+}
+
+footer .contact-box {
+  background-color: var(--branding-color);
+  padding: 30px 120px;
+  border-radius: 5px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+
+footer .email-link:hover {
+  color: rgb(99, 99, 99);
+}
+
+footer .social-links i {
+  font-size: 36px;
+  margin: 40px 25px;
+  padding: 20px;
+  border-radius: 50px;
+  color: black;
+  background-color: var(--branding-color);
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-links i:hover {
+  color: var(--branding-color);
+  background-color: rgb(107, 107, 107);
+}
+
 @media (max-width: 900px) {
   .hero {
     padding: 60px 20px;
@@ -136,5 +181,14 @@ img {
 
   .project-description {
     text-align: center;
+  }
+
+  footer .contact-box {
+    margin: 0 0 30px 0 !important;
+    padding: 30px;
+  }
+
+  footer h4 {
+    font-size: 24px;
   }
 }
