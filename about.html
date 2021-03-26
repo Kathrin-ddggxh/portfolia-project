@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Kathrin Welfare is a front-end developer based in Ireland. Currently practicing and improving her skills in coding with HTMl, CSS, JavaScript and React."
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -25,12 +29,12 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/styles/portfolio.css" />
-    <title>Document</title>
+    <title>About | Kathrin Welfare</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/index.html"
+        <a class="navbar-brand" href="/index.html" title="Homepage"
           ><i class="fas fa-genderless"></i
         ></a>
         <button
@@ -46,12 +50,20 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link" href="/index.html">Home</a>
-            <a class="nav-link active" aria-current="page" href="/about.html"
+            <a class="nav-link" href="/index.html" title="Homepage">Home</a>
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="/about.html"
+              title="About Kathrin"
               >About</a
             >
-            <a class="nav-link" href="/work.html">Work</a>
-            <a class="nav-link" href="/contact.html">Contact</a>
+            <a class="nav-link" href="/work.html" title="Kathrin's projects"
+              >Work</a
+            >
+            <a class="nav-link" href="/contact.html" title="Contact Kathrin"
+              >Contact</a
+            >
           </div>
         </div>
       </div>
@@ -65,7 +77,7 @@
             A wonderful, long text about how great I am and what amazing work I
             do. Blablablabla...
           </p>
-          <a href="#" title="View projects" class="btn btn-dark mb-5"
+          <a href="/work.html" title="View projects" class="btn btn-dark mb-5"
             >View my projects</a
           >
         </div>
@@ -77,6 +89,55 @@
           />
         </div>
       </div>
+      <footer>
+        <div class="contact-box d-flex justify-content-between m-5">
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a href="/contact.html" title="contact Kathrin" class="btn btn-dark"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <a
+            href="mailto:kathrin.welfare@gmail.com"
+            class="email-link"
+            title="email Kathrin"
+            >kathrin.welfare@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.facebook.com/kathrin.steiner.5030"
+            target="_blank"
+            title="Kathrin on Facebook"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a
+            href="https://twitter.com/Kay08133471"
+            target="_blank"
+            title="Kathrin on Twitter"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            href="https://github.com/Kathrin-ddggxh"
+            target="_blank"
+            title="Kathrin on GitHub"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+        <p class="text-center text-muted mt-5">
+          This project was coded by Kathrin Welfare and is
+          <a
+            href="https://github.com/Kathrin-ddggxh/portfolia-project"
+            title="Code on GitHub"
+            >open-sourced</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
