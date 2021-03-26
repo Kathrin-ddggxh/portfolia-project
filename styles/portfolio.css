@@ -26,6 +26,15 @@ img {
   box-shadow: var(--box-shadow);
 }
 
+.fa-genderless {
+  font-size: 40px;
+  margin: 0 30px;
+}
+
+.nav-link {
+  padding: 0 40px !important;
+}
+
 .hero {
   background-color: var(--branding-color);
   text-align: center;
@@ -44,7 +53,7 @@ img {
 
 .content-header {
   margin-top: 20px;
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .content-header h1 {
