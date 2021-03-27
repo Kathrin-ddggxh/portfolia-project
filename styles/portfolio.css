@@ -100,7 +100,7 @@ img {
 }
 
 .project-description {
-  margin-top: 110px;
+  margin-top: 90px;
 }
 
 .project-description h2 {
@@ -199,6 +199,7 @@ footer .social-links i:hover {
 
   .project-description {
     text-align: center;
+    margin-top: 70px;
   }
 
   footer .contact-box {
