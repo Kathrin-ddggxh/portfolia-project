@@ -1,5 +1,6 @@
 :root {
-  --branding-color: rgb(218, 248, 253);
+  --branding-color: #455a64;
+  --secondary-color: #eceff1;
   --primary-font-family: "Playfair Display", serif;
   --secondary-font-family: "Poppins", sans-serif;
   --box-shadow: 10px 10px 30px 2px rgb(0 0 0 / 12%);
@@ -41,7 +42,7 @@ img {
 }
 
 .hero {
-  background-color: var(--branding-color);
+  background-color: var(--secondary-color);
   text-align: center;
   padding: 160px 20px;
 }
@@ -75,14 +76,26 @@ img {
   font-size: 18px;
 }
 
-.btn {
+.btn-branding {
+  background-color: var(--branding-color);
+  color: var(--secondary-color);
   font-size: 20px;
   padding: 15px 25px;
   border-radius: 10px;
 }
 
-.btn-dark:hover {
+.btn-branding:hover {
+  color: white;
+}
+
+.btn-outline-branding {
   color: var(--branding-color);
+  border-color: var(--branding-color);
+}
+
+.btn-outline-branding:hover {
+  border-color: var(--secondary-color);
+  background-color: var(--secondary-color);
 }
 
 .project-description {
@@ -119,13 +132,17 @@ footer {
 }
 
 footer .contact-box {
-  background-color: var(--branding-color);
+  background-color: var(--secondary-color);
   padding: 30px 120px;
   border-radius: 5px;
 }
 
 footer .contact-box p {
   margin: 0;
+}
+
+footer .btn-branding {
+  margin-top: 6px;
 }
 
 footer .email-link {
@@ -144,14 +161,14 @@ footer .social-links i {
   margin: 40px 25px;
   padding: 20px;
   border-radius: 50px;
-  color: black;
-  background-color: var(--branding-color);
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
   transition: all 150ms ease-in-out;
 }
 
 footer .social-links i:hover {
-  color: var(--branding-color);
-  background-color: rgb(107, 107, 107);
+  color: var(--secondary-color);
+  background-color: var(--branding-color);
 }
 
 @media (max-width: 900px) {
@@ -185,7 +202,12 @@ footer .social-links i:hover {
 
   footer .contact-box {
     margin: 0 0 30px 0 !important;
-    padding: 30px;
+    padding: 20px;
+  }
+
+  footer .btn-branding {
+    font-size: 18px;
+    padding: 10px;
   }
 
   footer h4 {
