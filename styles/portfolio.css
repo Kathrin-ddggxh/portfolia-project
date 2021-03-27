@@ -44,17 +44,17 @@ img {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 70px 20px;
   margin-bottom: 20px;
 }
 
 .hero h1 {
-  font-size: 78px;
+  font-size: 64px;
   margin-bottom: 28px;
 }
 
 .hero h2 {
-  font-size: 42px;
+  font-size: 38px;
   margin-bottom: 48px;
 }
 
@@ -174,7 +174,7 @@ footer .social-links i:hover {
 
 @media (max-width: 900px) {
   .hero {
-    padding: 60px 20px;
+    padding: 40px 20px;
   }
 
   .hero h1 {
